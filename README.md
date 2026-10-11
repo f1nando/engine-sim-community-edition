@@ -1,5 +1,8 @@
 # Engine Simulator - Community Edition
 
+Local development: [native C++ modernization](docs/native/START-HERE.ru.md).
+The discontinued JS-port work is preserved on the `feat/js-port` branch.
+
 [Click here to download the most recent release for Windows](https://github.com/Engine-Simulator/engine-sim-community-edition/releases/download/v0.1.14a/engine-sim-v0.1.14a.zip)
 
 [Please read the installation instructions below.](#installation-Instructions)
