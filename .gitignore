@@ -1,0 +1,3 @@
+# Preserve local JS dependency/build/diagnostic artifacts when switching branches.
+# JS sources and history remain on feat/js-port;not part of the native direction.
+/web/
