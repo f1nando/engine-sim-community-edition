@@ -1,0 +1,14 @@
+{
+  "sdl2": {
+    "url": "https://github.com/libsdl-org/SDL/releases/download/release-2.32.10/SDL2-devel-2.32.10-VC.zip",
+    "sha256": "af347939395a58b365846aaea27391e69f9ec9d4dd650d6ac40802159b418a6e"
+  },
+  "sdl2Image": {
+    "url": "https://github.com/libsdl-org/SDL_image/releases/download/release-2.8.12/SDL2_image-devel-2.8.12-VC.zip",
+    "sha256": "9e14b4166d6c905db18dbe5bbe2288bca17874a0944c70b457cd31b31f0ecf8f"
+  },
+  "winFlexBison": {
+    "url": "https://github.com/lexxmark/winflexbison/releases/download/v2.5.25/win_flex_bison-2.5.25.zip",
+    "sha256": "8d324b62be33604b2c45ad1dd34ab93d722534448f55a16ca7292de32b6ac135"
+  }
+}

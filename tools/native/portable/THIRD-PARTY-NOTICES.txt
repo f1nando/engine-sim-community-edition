@@ -1,0 +1,47 @@
+Engine Sim Lab: unofficial modernization by f1nando of the open-source
+Engine Simulator by Ange Yaghi. Not the closed-source Community Edition.
+The simulator is not a validated scientific/engineering tool.
+
+ENGINE SIMULATOR, DELTA-STUDIO, SIMPLE-2D-CONSTRAINT-SOLVER, CSV-IO
+Copyright their respective authors. MIT terms are in LICENSES.
+Model scripts, sounds and graphical assets come from the pinned open-source
+engine-sim tree, not from a closed-source Community Edition release.
+
+PIRANHA
+Copyright (c) 2022 Ange Yaghi, MIT. The historical pinned source tree predates
+the upstream LICENSE file. The author's official license is included from:
+https://github.com/ange-yaghi/piranha/blob/004fa15305655918319e825da760dc5e9fe67f60/LICENSE
+No separate or newly invented license is asserted for the dependency.
+
+BOOST
+Boost Software License 1.0, included in LICENSES.
+
+SDL2 AND SDL2_IMAGE
+zlib licenses are included in LICENSES. Official upstream x64 runtime DLLs.
+Optional AVIF/TIFF/WebP codec DLLs are not included or needed for the packaged PNG assets.
+
+SILKSCREEN FONT
+Jason Kottke's original redistribution notice is included in the font directory
+and LICENSES. Font files are unmodified. Other delta-studio fonts are not shipped.
+
+STB_TRUETYPE / STB_RECT_PACK, FLEXLEXER
+Sean Barrett's embedded STB dual-license notice (MIT alternative selected) and
+the Berkeley FlexLexer redistribution notice are preserved in LICENSES.
+
+MICROSOFT DIRECTX D3DX
+Unmodified, Microsoft-signed x64 RELEASE binaries from the official package
+Microsoft.DXSDK.D3DX 9.29.952.8 (nuget.org). No debug D3DX runtimes are shipped.
+See Microsoft-D3DX-LICENSE.txt, Microsoft-D3DX-NOTICE.md and the redistribution
+list Microsoft-D3DX-README.md in LICENSES. These components are not under MIT.
+Use and further distribution are subject to their Microsoft license terms.
+
+MICROSOFT VISUAL C++ RUNTIME
+Unmodified, Microsoft-signed redistributable CRT DLLs from the installed
+Visual Studio 2022 Build Tools VC/Redist/MSVC/x64/Microsoft.VC143.CRT directory.
+Application-local deployment, for Windows only; not licensed under this project's MIT.
+Use and redistribution are subject to Microsoft Visual Studio/Visual C++ runtime
+license terms, not a new grant from this project. Deployment documentation:
+https://learn.microsoft.com/en-us/cpp/windows/redistributing-visual-cpp-files
+
+No changes to Windows security policy are part of this application or package.
+Microsoft signatures on Microsoft DLLs do not sign or endorse EngineSim.exe.
